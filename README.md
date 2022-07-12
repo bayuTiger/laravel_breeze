@@ -1,0 +1,2 @@
+# laravel_breeze
+laravel_breezeによるマルチログイン機能の実装
