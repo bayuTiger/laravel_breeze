@@ -1,4 +1,3 @@
-// config/laravel-lang.php
 <?php
 
 return [
