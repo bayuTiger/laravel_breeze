@@ -21,3 +21,12 @@ webサーバーがpublic/index.phpにリダイレクト
 - `#binding`に紐づけられているサービス一覧が格納されている
 - サービスコンテナを使うと**インスタンス化する必要がない**
 - 依存関係も解決してくれるので便利
+
+## サービスプロバイダー
+
+サービスコンテナにサービスを登録する仕組み
+読み込み箇所 -> `Illuminate\Foundation\Application`
+
+- ServiceProvider -> app()
+  - register() = 登録
+  - boot() = 登録後に実行したい処理
